@@ -6,7 +6,7 @@ const LinkedinIcon = (
 	return (
 		<svg
 			width={props.size}
-			height="256px"
+			height={props.size}
 			viewBox="0 0 256 256"
 			version="1.1"
 			preserveAspectRatio="xMidYMid"
