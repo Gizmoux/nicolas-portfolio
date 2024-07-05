@@ -14,11 +14,13 @@ const Skills = () => {
 			</h2>
 			<div className="flex max-md:flex-col gap-4">
 				<div className="flex flex-col gap-2 flex-1">
-					<ReactLogo
-						size={42}
-						className="animate-spin"
-						style={{ animationDuration: '10s' }}
-					/>
+					<div>
+						<ReactLogo
+							size={42}
+							className="animate-spin"
+							style={{ animationDuration: '10s' }}
+						/>
+					</div>
 					<h3 className="text-2xl font-semibold tracking-tight">React</h3>
 					<p className="text-muted-foreground text-sm">
 						Ma librairie principale est <Code>React</Code>
