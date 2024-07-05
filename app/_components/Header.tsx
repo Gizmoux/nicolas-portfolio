@@ -8,7 +8,7 @@ import LinkedinIcon from './icons/LinkedinIcon';
 
 const Header = () => {
 	return (
-		<header className="sticky top-0 py-4">
+		<header className="top-0 py-4 ">
 			<Section className="flex items baseline">
 				<h1 className="text-lg font-bold text-primary">Nicolas</h1>
 				<div className="flex-1"></div>
@@ -20,13 +20,13 @@ const Header = () => {
 						<GithubIcon size={14} className="text-foreground" />
 					</Link>
 					<Link
-						href=""
+						href="https://x.com/nicogizmoux"
 						className={cn(buttonVariants({ variant: 'outline' }), 'size-6 p-0')}
 					>
 						<TwitterIcon size={14} className="text-foreground" />
 					</Link>
 					<Link
-						href="https://github.com/Gizmoux"
+						href="https://www.linkedin.com/in/nicolas-de-riemacker"
 						className={cn(buttonVariants({ variant: 'outline' }), 'size-6 p-0')}
 					>
 						<LinkedinIcon size={14} className="text-foreground" />
