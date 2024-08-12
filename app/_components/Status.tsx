@@ -1,3 +1,4 @@
+'use client';
 /* eslint-disable @next/next/no-img-element */
 import { Card } from '@/components/ui/card';
 import Section from './Section';

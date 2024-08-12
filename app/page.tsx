@@ -1,7 +1,5 @@
-import Image from 'next/image';
 import Contact from './_components/Contact';
 import Header from './_components/Header';
-import Section from './_components/Section';
 import Skills from './_components/Skills';
 import Hero from './_components/Hero';
 import Spacing from './_components/Spacing';

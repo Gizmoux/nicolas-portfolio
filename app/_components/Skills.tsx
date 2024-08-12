@@ -1,3 +1,4 @@
+'use client';
 /* eslint-disable react/no-unescaped-entities */
 import Section from './Section';
 import { Badge } from '@/components/ui/badge';

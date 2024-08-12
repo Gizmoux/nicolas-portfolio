@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import Section from './Section';
 import profilPicture from '../_components/assets/Images/profil-pic.jpg';

@@ -1,3 +1,4 @@
+'use client';
 import Link from 'next/link';
 import Image from 'next/image';
 import logoMC from '../_components/assets/Images/logoMC.png';

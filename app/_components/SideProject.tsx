@@ -1,3 +1,4 @@
+'use client';
 import Link from 'next/link';
 import { LucideIcon, Drama, Rss, Weight, Bitcoin } from 'lucide-react';
 

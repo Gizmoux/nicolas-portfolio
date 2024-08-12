@@ -1,3 +1,4 @@
+'use client';
 import Section from './Section';
 import { Badge } from '@/components/ui/badge';
 import { ContactCard } from './ContactCard';
