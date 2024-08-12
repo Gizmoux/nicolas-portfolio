@@ -33,6 +33,7 @@ const Hero = () => {
 			<div className="flex-[2] max-md:m-auto ml-auto">
 				<Image
 					src={profilPicture}
+					priority
 					className="rounded-xl w-40 h-auto max-w-xs"
 					alt="Profil Picture"
 				/>
