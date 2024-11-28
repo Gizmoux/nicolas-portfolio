@@ -8,7 +8,8 @@ const Skills = () => {
 		<Section className="flex flex-col items-start gap-4">
 			<Badge variant={'outline'}>Contact me</Badge>
 			<h2 className="pb-2 text-2xl font-semibold tracking-tight first:mt-0">
-				Vous pouvez me contacter ici, je serai heureux de travailler avec vous
+				Je serais ravi d'échanger avec vous. N'hésitez pas à me contacter ici 🚀
+				!
 			</h2>
 			<div className="flex max-md:flex-col gap-4 w-full">
 				<ContactCard
