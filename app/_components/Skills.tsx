@@ -11,7 +11,7 @@ const Skills = () => {
 		<Section className="flex flex-col items-start gap-4">
 			<Badge variant={'outline'}>Skills</Badge>
 			<h2 className="pb-2 text-2xl font-semibold tracking-tight first:mt-0">
-				J'adore travailler sur...
+				Mes domaines d'expertise 🔎
 			</h2>
 			<div className="flex max-md:flex-col gap-4">
 				<div className="flex flex-col gap-2 flex-1">
@@ -24,7 +24,9 @@ const Skills = () => {
 					</div>
 					<h3 className="text-2xl font-semibold tracking-tight">React</h3>
 					<p className="text-muted-foreground text-sm">
-						Ma librairie principale est <Code>React</Code>
+						<Code>React</Code> est mon langage front-end principal. Je développe
+						continuellement mes compétences et reste à l'écoute des meilleures
+						pratiques.
 					</p>
 				</div>
 
@@ -32,8 +34,8 @@ const Skills = () => {
 					<NextIcon size={42} />
 					<h3 className="text-2xl font-semibold tracking-tight">Next.js</h3>
 					<p className="text-muted-foreground text-sm">
-						Mon principal Framework est <Code>Next</Code> pour le frontend et le
-						backend
+						<Code>Next.js</Code> est mon framework de prédilection. Je cherche
+						constamment à approfondir ma maîtrise de ses fonctionnalités.
 					</p>
 				</div>
 
@@ -41,8 +43,8 @@ const Skills = () => {
 					<TailwindLogo size={42} />
 					<h3 className="text-2xl font-semibold tracking-tight">TailwindCSS</h3>
 					<p className="text-muted-foreground text-sm">
-						J'utilise <Code>TailwindCSS</Code> pour créer le design de mes
-						applications
+						Je conçois des interfaces avec <Code>TailwindCSS</Code>. Mon
+						objectif : progresser et optimiser mes intégrations.
 					</p>
 				</div>
 			</div>
