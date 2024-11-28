@@ -4,7 +4,6 @@ import Section from './Section';
 import profilPicture from '../_components/assets/Images/profil-pic.jpg';
 import Image from 'next/image';
 import { Code } from './Code';
-import { cn } from '@/lib/utils';
 import Link from 'next/link';
 import GithubIcon from './icons/GithubIcon';
 import NextIcon from './icons/NextIcon';
@@ -16,19 +15,23 @@ const Hero = () => {
 				<h2 className="font-caption font-bold text-4xl text-primary">
 					Nicolas de Riemacker
 				</h2>
-				<h3 className="font-caption text-3xl">Développeur React</h3>
+				<h3 className="font-caption text-3xl">
+					Développeur Next.js | React.js
+				</h3>
 				<p className="text-base">
-					Vous pouvez voir mes projets sur
-					<Link href="http://github.com/Gizmoux">
-						<Code className="inline-flex items-center gap-2 mb-2">
-							<GithubIcon size={16} className="inline" />
-							Github
-						</Code>
-					</Link>
-					, codés avec certaines technologies comme
-					<Code className="inline-flex items-center gap-2 ml-4">
+					Développeur web junior passionné, spécialisé dans l'écosystème
+					JavaScript, notamment
+					<Code className="inline-flex items-center gap-2 ml-1 mr-1">
 						<NextIcon size={18} className="inline" /> Next.js
 					</Code>
+					. Motivé et curieux, je suis prêt à relever de nouveaux défis en
+					développement Fullstack. Vous pouvez voir mes projets sur
+					<Link href="http://github.com/Gizmoux">
+						<Code className="inline-flex items-center gap-2 mb-2 mr-1 ml-1">
+							<GithubIcon size={16} className="inline" />
+							Github ↗️
+						</Code>
+					</Link>
 				</p>
 			</div>
 			<div className="flex-[2] max-md:m-auto ml-auto">
