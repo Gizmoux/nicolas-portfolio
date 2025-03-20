@@ -24,9 +24,9 @@ export const SIDE_PROJECTS: SideProjectProps[] = [
   },
   {
     Logo: Rss,
-    title: "Vinted-App",
-    description: "Clone de Vinted",
-    url: "/",
+    title: "AriMayi",
+    description: "AriMayi",
+    url: "https://www.arimayi.fr/",
   },
   {
     Logo: DollarSign,
