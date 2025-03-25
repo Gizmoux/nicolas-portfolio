@@ -14,7 +14,7 @@ export const SIDE_PROJECTS: SideProjectProps[] = [
     Logo: Drama,
     title: "Marvel-App",
     description: "Une plateforme pour vos persos Marvel préférés",
-    url: "https://gitlab.com/gizmoux-marvel/marvel-app",
+    url: "https://marvel-application-three.vercel.app/",
   },
   {
     Logo: Bitcoin,
